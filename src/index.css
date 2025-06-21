@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: blue;
+}
