@@ -1,7 +1,7 @@
 import React from 'react';
-import About from './About'
-import image from '../assets/image.jpg'
-const Home = ({ items,users }) => {
+import image from '../assets/image.jpg';
+
+const Home = ({ items }) => {
   return (
     <div>
       <h3>Home Page</h3>
@@ -11,7 +11,7 @@ const Home = ({ items,users }) => {
           <li key={index}>{fruit}</li>
         ))}
       </ul>
-      <img src={image} alt="react" width="1000px"  />
+      <img src={image} alt="react" width="1000px" />
     </div>
   );
 };
